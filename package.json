@@ -2,19 +2,36 @@
   "name": "node-note-cli",
   "version": "2.1.1",
   "description": "A simple CLI tool for managing global notes by title, sorted newest-first.",
-  "main": "bin/note.js",
+  "main": "lib/notes.js",
   "bin": {
     "note": "bin/note.js"
   },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranpollob/note-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imranpollob/note-cli/issues"
+  },
+  "homepage": "https://github.com/imranpollob/note-cli#readme",
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "keywords": [
-    "node",
-    "note"
+    "cli",
+    "notes",
+    "note",
+    "todo",
+    "terminal",
+    "scratchpad",
+    "productivity"
   ],
   "author": "Imran Pollob",
   "license": "ISC"
